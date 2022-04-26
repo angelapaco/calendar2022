@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@50;100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://blendswap.com/static/blendImages/2021/3/17/Blend/27627/studio_ghibli_style_background_art_using_blender3d_by_mclelun_de3mm4h.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+	height: 100%;
+}
+
+.bg{
+
+}
+
+.title{
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-size: 33px;
+}
+
+.monthsa{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-collapse: separate;
+  border-spacing: 60px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.monthsb{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-collapse: separate;
+  border-spacing: 15px;
+  font-weight: 500;
+  width: 100%;
+}
+
+tr, td{
+  border: 1px solid;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 55px 85px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px #4F4F4F;
+}
+
+td.m1{
+  background: url('https://studioghiblimovies.com/wp-content/uploads/2020/03/73-737065_living-waters-ag-wave-vector-clipart.png');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m1:hover{
+  background-size: 325px;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m2{
+  background: url('https://i.pinimg.com/originals/4a/d7/0a/4ad70a994e5ecfd4dbbd20ed7a2f32f7.jpg');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m2:hover{
+  background-size: 325px;
+  font-size: 18px;
+  padding: 35px 90px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m3{
+  background: url('https://www.wallpaperuse.com/wallp/28-284905_m.png');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m3:hover{
+  background-size: 325px;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m4{
+  background: url('https://i.pinimg.com/originals/6c/a8/37/6ca8370b84753d9b344d071adaffe630.jpg');
+  background-size: 275px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m4:hover{
+  background-size: 315px;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m5{
+  background: url('https://www.iamag.co/wp-content/uploads/2015/12/Only-Yesterday-5.jpg');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m5:hover{
+  background-size: 327px;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m6{
+  background: url('https://www.slantmagazine.com/wp-content/uploads/2020/01/weatheringwithyou.jpg');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m6:hover{
+  background-size: 325px;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m7{
+  background: url('https://pbs.twimg.com/media/EMWkeOsXsAArc8Z.jpg');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m7:hover{
+  background-size: 325px;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m8{
+  background: url('https://64.media.tumblr.com/af1ce1709c293c2b61d72b27869d4fba/76b0ec3a348a50a8-e1/s540x810/e586545abdc31f36be89676cd648087fa8e8dca8.jpg');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m8:hover{
+  background-size: 325px;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m9{
+  background: url('https://wallpaperaccess.com/full/650854.jpg');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m9:hover{
+  background-size: 325px;
+  font-size: 18px;
+  padding: 35px 90.5px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m10{
+  background: url('https://res.cloudinary.com/jerrick/image/upload/v1625063251/60dc7f522acc5b001f9c0c13.jpg');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m10:hover{
+  background-size: 325px;
+  font-size: 18px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m11{
+  background: url('https://images.mubicdn.net/images/film/107460/cache-77562-1603705349/image-w1280.jpg?size=800x');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m11:hover{
+  background-size: 325px;
+  font-size: 18px;
+  padding: 35px 90.5px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+td.m12{
+  background: url('https://i.pinimg.com/736x/c5/23/fc/c523fc7d42bad4d61f957858108d22a4--landscape-paintings-hayao-miyazaki.jpg');
+  background-size: 280px;
+  background-position: center;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+td.m12:hover{
+  background-size: 325px;
+  font-size: 18px;
+  padding: 35px 90.5px;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+.maina{
+  width: 100%;
+  margin: 20px;
+}
+
+.mainb{
+  display: none;
+}
+
+@media (max-width: 1350px){
+  .title{
+    top: 85px;
+  }
+  .mainb{
+    display: none;
+  }
+  .monthsa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-collapse: separate;
+    border-spacing: 15px;
+    font-weight: 500;
+    width: 100%;
+  }
+  tr, td{
+    border: 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 35px 45px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px #4F4F4F;
+  }
+  td.m2:hover{
+    background-size: 325px;
+    font-size: 18px;
+    padding: 35px 50px;
+    cursor: pointer;
+    text-shadow: none;
+  }
+  td.m9:hover{
+    background-size: 325px;
+    font-size: 18px;
+    padding: 35px 50.5px;
+    cursor: pointer;
+    text-shadow: none;
+  }
+  td.m11:hover{
+    background-size: 325px;
+    font-size: 18px;
+    padding: 35px 50.2px;
+    cursor: pointer;
+    text-shadow: none;
+  }
+  td.m12:hover{
+    background-size: 325px;
+    font-size: 18px;
+    padding: 34.9px 50.3px;
+    cursor: pointer;
+    text-shadow: none;
+  }
+  .maina{
+    display: contents;
+  }
+}
+
+
+@media (max-width: 980px){
+  .title{
+    top: 10px;
+  }
+  .mainb{
+    display: contents;
+  }
+  .monthsb{
+    top: 420px;
+  }
+  tr, td{
+    border: 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 35px 45px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px #4F4F4F;
+  }
+  td.m2:hover{
+    background-size: 325px;
+    font-size: 18px;
+    padding: 35px 50px;
+    cursor: pointer;
+    text-shadow: none;
+  }
+  td.m9:hover{
+    background-size: 325px;
+    font-size: 18px;
+    padding: 35px 50.5px;
+    cursor: pointer;
+    text-shadow: none;
+  }
+  td.m11:hover{
+    background-size: 325px;
+    font-size: 18px;
+    padding: 35px 50.2px;
+    cursor: pointer;
+    text-shadow: none;
+  }
+  td.m12:hover{
+    background-size: 325px;
+    font-size: 18px;
+    padding: 34.9px 50.3px;
+    cursor: pointer;
+    text-shadow: none;
+  }
+  .maina{
+    display: none;
+  }
+}
+
+
+
+/*
+.months{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.months1, .months2, .months3{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+}
+
+.mos{
+
+}
+
+.january{
+  color: white;
+  background: lightcoral;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  top: 85px;
+  border-radius: 25px;
+  transition-property: color, background;
+  transition: 0.3s ease;
+}
+
+.january:hover{
+  background: lightblue;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 55px;
+  font-size: 20px;
+  top: 78px;
+} */
